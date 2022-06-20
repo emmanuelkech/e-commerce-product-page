@@ -44,8 +44,8 @@ p {
   cursor: pointer;
 }
 
-/* Extra small devices (phones, 599px and down) */
-@media only screen and (max-width: 599px) {
+/* Small devices (phones, 1000px and down) */
+@media only screen and (max-width: 1000px) {
   .nav-items {
     display: none;
   }
@@ -77,8 +77,8 @@ p {
   }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+/* Large devices (portrait tablets and large phones, 1001px and up) */
+@media only screen and (min-width: 1001px) {
   .menu-toggler {
     display: none;
   }
@@ -88,7 +88,6 @@ p {
     justify-content: space-between;
     padding: 2em 0;
     margin: 0 10rem;
-    min-width: 691px;
   }
 
   .logo-section {
