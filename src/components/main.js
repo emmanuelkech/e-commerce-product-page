@@ -27,18 +27,6 @@ const Main = () => {
                     <img className='product-thumbnail' src={ producttwotn } />
                     <img className='product-thumbnail' src={ productthreetn } />
                     <img className='product-thumbnail' src={ productfourtn } />
-                    {/* <div className='product-thumbnail-container'>
-                        <img className='product-thumbnail' src={ productonetn } />
-                    </div>
-                    <div className='product-thumbnail-container'>
-                        <img className='product-thumbnail' src={ producttwotn } />
-                    </div>
-                    <div className='product-thumbnail-container'>
-                        <img className='product-thumbnail' src={ productthreetn } />
-                    </div>
-                    <div className='product-thumbnail-container'>
-                        <img className='product-thumbnail' src={ productfourtn } />
-                    </div>                     */}
                 </div>
             </div>
             <div className='product-info-section'>
