@@ -44,25 +44,27 @@ const Main = () => {
                             <p className='percent-off'>50%</p>
                         </div>                        
                     </div>
-                    <div>
+                    <div className='old-price-container'>
                         <p className='old-price'>$250.00</p>
                     </div>
                 </div>
                 <div className='buying-area'>
-                    <div className='counter-section'>
-                        <div className='counter-container'>
-                            <button className='counter'>
-                                <img src={ minus } />
-                            </button>
-                        </div>
-                        <p className='counter-text'>0</p>
-                        <div className='counter-container'>
-                            <button className='counter'>
-                                <img src={ plus } />
-                            </button>
+                    <div className='counter-area'>
+                        <div className='counter-section'>
+                            <div className='counter-container'>
+                                <button className='counter'>
+                                    <img src={ minus } />
+                                </button>
+                            </div>
+                            <p className='counter-text'>0</p>
+                            <div className='counter-container'>
+                                <button className='counter'>
+                                    <img src={ plus } />
+                                </button>
+                            </div>
                         </div>
                     </div>
-                    <div>
+                    <div className='submit-container'>
                         <button className='submit'>                            
                             <p><span className='cart-img'><img src={ cart } /></span> Add to cart</p>
                         </button>
