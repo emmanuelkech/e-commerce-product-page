@@ -10,6 +10,8 @@ import productfourtn from '../images/image-product-4-thumbnail.jpg';
 import plus from '../images/icon-plus.svg';
 import minus from '../images/icon-minus.svg';
 import cart from '../images/icon-cart-two.svg';
+import previous from '../images/icon-previous.svg';
+import next from '../images/icon-next.svg';
 import '../App.css';
 
 const Main = () => {
@@ -17,16 +19,20 @@ const Main = () => {
         <div className='main-container'>
             <div className='product-img-section'>
                 <div className='product-img-container'>
-                    <img className='product-img pone' src={ productone } />
-                    <img className='product-img ptwo' src={ producttwo } />
-                    <img className='product-img pthree' src={ productthree } />
-                    <img className='product-img pfour' src={ productfour } />
+                    <img className='product-img pone' src={ productone } alt='' />
+                    <img className='product-img ptwo' src={ producttwo } alt='' />
+                    <img className='product-img pthree' src={ productthree } alt='' />
+                    <img className='product-img pfour' src={ productfour } alt='' />
+                    <div className='arrow-container'>
+                        <img className='arrow' src={ previous } alt='' />
+                        <img className='arrow' src={ next } alt='' />
+                    </div>
                 </div>
                 <div className='product-thumbnail-section'>
-                    <img className='product-thumbnail' src={ productonetn } />
-                    <img className='product-thumbnail' src={ producttwotn } />
-                    <img className='product-thumbnail' src={ productthreetn } />
-                    <img className='product-thumbnail' src={ productfourtn } />
+                    <img className='product-thumbnail' src={ productonetn } alt='' />
+                    <img className='product-thumbnail' src={ producttwotn } alt='' />
+                    <img className='product-thumbnail' src={ productthreetn } alt='' />
+                    <img className='product-thumbnail' src={ productfourtn } alt='' />
                 </div>
             </div>
             <div className='product-info-section'>
@@ -53,20 +59,20 @@ const Main = () => {
                         <div className='counter-section'>
                             <div className='counter-container'>
                                 <button className='counter'>
-                                    <img src={ minus } />
+                                    <img src={ minus } alt='' />
                                 </button>
                             </div>
                             <p className='counter-text'>0</p>
                             <div className='counter-container'>
                                 <button className='counter'>
-                                    <img src={ plus } />
+                                    <img src={ plus } alt='' />
                                 </button>
                             </div>
                         </div>
                     </div>
                     <div className='submit-container'>
                         <button className='submit'>                            
-                            <p><span className='cart-img'><img src={ cart } /></span> Add to cart</p>
+                            <p><span className='cart-img'><img src={ cart } alt='' /></span> Add to cart</p>
                         </button>
                     </div>
                 </div>
